@@ -1,4 +1,4 @@
-class Team
+class Superhero
   attr_accessor :name, :power, :biography
 
   def initialize(data)
