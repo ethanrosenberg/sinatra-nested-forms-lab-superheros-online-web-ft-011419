@@ -1,10 +1,10 @@
 <h1><%= @dt.name %><h1><br>
 <h2>Team Motto: <%= @dt.motto %></h2>
 
-<h1>Courses</h1>
-<% @courses.each do |course| %>
+<% @heroes.each do |hero| %>
   <div class="course">
     <p>Name: <%= course.name %></p><br>
-    <p>Topic: <%= course.topic %></p><br>
+    <p>Power: <%= course.topic %></p><br>
+    <p>Biography: <%= course.topic %></p><br>
   </div><br>
 <% end %>
