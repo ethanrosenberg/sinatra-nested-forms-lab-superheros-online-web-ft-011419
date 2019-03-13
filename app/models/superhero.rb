@@ -3,7 +3,8 @@ class Superhero
 
   def initialize(data)
     @name = data[:name]
-    @motto = data[:motto]
+    @power = data[:power]
+    @biography = data[:biography]
   end
 
 end
